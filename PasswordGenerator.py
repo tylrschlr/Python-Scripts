@@ -1,7 +1,7 @@
 '''
 Tyler Schuler
-CYBV 312
-Final Project: Password generator/hasher
+Python Random Password Generator. 
+Generates a random passowrd based on user input, hashes the password, then writes the password and hash to a CSV.
 May 2021
 '''
 import sys
