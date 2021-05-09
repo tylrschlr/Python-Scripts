@@ -37,8 +37,7 @@ print(p)
 df = pd.DataFrame(p, columns=['Password'])
 df['Hash'] = h
 print(df)
-df.to_csv(r'C:\Users\Administrator\Desktop\PassManager.csv', index = False) #Writes passwords and hashes to a CSV
-
+df.to_csv(r'C:\Users\Administrator\Desktop\PassManager.csv', index = False) #Input will need to reflect where the user wants the CSV saved to. 
             
 
         
